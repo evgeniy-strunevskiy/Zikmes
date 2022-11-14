@@ -1,0 +1,18 @@
+
+.nav_list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.nav_item {
+  color: white;
+}
+
+.nav_link {
+  color: white;
+  &__active {
+    color: red;;
+  }
+}

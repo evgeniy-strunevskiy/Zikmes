@@ -1,0 +1,6 @@
+@use '../../sass/media.scss' as *;
+
+
+.footer_container {
+  @include container
+}

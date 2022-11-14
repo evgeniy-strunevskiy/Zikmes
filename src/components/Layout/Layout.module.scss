@@ -1,0 +1,14 @@
+.layout {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  overflow: hidden;
+  background-image: url('../../img/brock-wegner.jpg');
+  background-position: 0 0;
+  background-repeat: no-repeat repeat;
+  background-size: 100% auto;
+  background-attachment: fixed;
+}
