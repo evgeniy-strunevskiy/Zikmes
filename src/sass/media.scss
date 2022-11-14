@@ -1,0 +1,14 @@
+@mixin phones {
+	@media screen and (max-width: 480px) {
+		@content;
+	}
+}
+
+@mixin container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 2%;
+	@include phones {
+		max-width: 480px;	
+	}
+}
