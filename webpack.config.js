@@ -11,6 +11,11 @@ module.exports = {
   mode,
   target,
   devtool,
+  devServer: {
+    port: 8080,
+    open: true,
+    hot: true,
+  },
   entry: {
     main: path.resolve(__dirname, 'src', 'index.js'),
   },
