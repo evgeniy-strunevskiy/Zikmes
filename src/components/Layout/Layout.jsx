@@ -1,5 +1,5 @@
 import React from 'react'
-import cl from 'classnames/bind'
+import cl from 'classnames'
 import styles from './Layout.module.scss'
 import { Footer } from '../Footer/Footer'
 import { Header } from '../Header/Header'

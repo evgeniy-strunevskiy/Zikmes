@@ -1,6 +1,13 @@
 @use '../../sass/media.scss' as *;
 
+.main {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .main_container {
-  @include container
+  width: 100%;
+  @include container;
 }

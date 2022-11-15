@@ -1,6 +1,6 @@
 import React from 'react'
 import {Outlet} from 'react-router-dom'
-import cl from 'classnames/bind'
+import cl from 'classnames'
 import styles from './Main.module.scss'
 
 export const Main = () => {

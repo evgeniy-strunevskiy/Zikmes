@@ -7,7 +7,6 @@ export const Footer = () => {
     <footer className={cl(styles.footer)}>
       <div className={cl(styles.footer_container)}>
         2022
-
       </div>
     </footer>
   )
