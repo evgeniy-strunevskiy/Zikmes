@@ -88,9 +88,23 @@
 
 .formIcon {
   height: 15px;
-  transform: skewX(-300deg);
   color: white;
+  position: relative;
+  transform: skewX(-300deg);
   @include phones {
     transform: skewX(0deg);
+  }
+}
+
+.form_error {
+  position: absolute;
+  top: 110%;
+  left: 50px;
+  font-size: 12px;
+  color: white;
+  transform: skewX(-300deg);
+  @include phones {
+    transform: skewX(0deg);
+    left: 0px;
   }
 }
