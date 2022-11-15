@@ -1,8 +1,11 @@
 @use '../../sass/media.scss' as *;
 
+.footer {
+  background-color: black;
+
+}
 
 .footer_container {
-  background-color: black;
   color: white;
   display: flex;
   justify-content: center;
