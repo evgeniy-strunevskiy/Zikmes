@@ -1,6 +1,11 @@
 @use '../../sass/media.scss' as * ;
 
 .form {
+  width: 100%;
+  position: relative;
+}
+
+.form_container {
   display: flex;
   width: 100%;
 }
@@ -26,6 +31,9 @@
   align-items: center;
   transition: 0.2s ease-in-out;
   &:hover {
+    background-color: rgba(255, 255, 255, 1);
+  }
+  &:focus {
     background-color: rgba(255, 255, 255, 1);
   }
   @include phones {
@@ -107,4 +115,13 @@
     transform: skewX(0deg);
     left: 0px;
   }
+}
+
+.form_status, .form_statusError  {
+  display: flex;
+  position: absolute;
+  top: 110%;
+  left: 10%;
+  background-color: white;
+  padding: 5px;
 }
